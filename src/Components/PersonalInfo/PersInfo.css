@@ -1,0 +1,23 @@
+.persInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.persInfo input {
+  width: 300px;
+  margin-bottom: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 3px solid #f8fc83;
+  background-color: #f8fc83;
+}
+.persInfo textarea {
+  width: 300px;
+  margin-bottom: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 3px solid #f8fc83;
+  background-color: #f8fc83;
+}

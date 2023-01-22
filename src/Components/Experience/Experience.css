@@ -1,0 +1,39 @@
+.experience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.experience input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 7px;
+  border: 3px solid #f8fc83;
+  background-color: #f8fc83;
+  border-radius: 10px;
+}
+.experienceButtons {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.experienceButtons button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.deleteBut{
+  background-color: red;
+  border: 3px solid red;
+  color: white;
+  font-size: 20px;
+}
+.addBut{
+  background-color: green;
+  border: 3px solid green;
+  color: white;
+  font-size: 20px;
+}
